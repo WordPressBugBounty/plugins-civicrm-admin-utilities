@@ -1,12 +1,12 @@
 /**
- * WordPress 7.0.x+ styles for the CiviCRM menu.
+ * WordPress 6.9.x+ styles for the CiviCRM menu.
  *
- * Implements WordPress 7.0.x+ styles and colours in the CiviCRM menu.
+ * Implements WordPress 6.9.x+ styles and colours in the CiviCRM menu.
  *
  * Compatible with WordPress admin colour schemes.
  *
  * @package CiviCRM_Admin_Utilities
- * @since 1.1.1
+ * @since 1.1.2
  */
 
 /*
@@ -73,17 +73,17 @@ body.admin-color-light {
 	--crm-wp-menu-link-color-rgb: rgb(104.4, 104.4, 104.4);
 	--crm-wp-menu-text-color-hover: #04a4cc;
 	--crm-wp-menu-link-background-color: #fff;
-	--crm-wp-menu-separator-color: #ededed;
+	--crm-wp-menu-separator-color: #fff;
 }
 
 body.admin-color-modern {
 	--crm-wp-menu-background-color: #1e1e1e;
 	--crm-wp-menu-default-color: #fff;
 	--crm-wp-menu-link-color: #bcbcbc;
-	--crm-wp-menu-link-color-rgb: rgb(187.5, 187.5, 187.5);
+	--crm-wp-menu-link-color-rgb: rgb(187.5,187.5,187.5);
 	--crm-wp-menu-text-color-hover: #7b90ff;
-	--crm-wp-menu-link-background-color: rgb(12.15, 12.15, 12.15);
-	--crm-wp-menu-separator-color: rgb(12.15, 12.15, 12.15);
+	--crm-wp-menu-link-background-color: #0c0c0c;
+	--crm-wp-menu-separator-color: #0c0c0c;
 }
 
 body.admin-color-blue {
@@ -99,11 +99,11 @@ body.admin-color-blue {
 body.admin-color-coffee {
 	--crm-wp-menu-background-color: #59524c;
 	--crm-wp-menu-default-color: #fff;
-	--crm-wp-menu-link-color: #c7a589;
+	--crm-wp-menu-link-color: #cdcbc9;
 	--crm-wp-menu-link-color-rgb: rgb(205.2, 203.1, 201.3);
 	--crm-wp-menu-text-color-hover: #c7a589;
-	--crm-wp-menu-link-background-color: rgb(69.7436363636, 64.2581818182, 59.5563636364);
-	--crm-wp-menu-separator-color: rgb(69.7436363636, 64.2581818182, 59.5563636364);
+	--crm-wp-menu-link-background-color: #46403c;
+	--crm-wp-menu-separator-color: #46403c;
 }
 
 body.admin-color-ectoplasm {
@@ -112,8 +112,8 @@ body.admin-color-ectoplasm {
 	--crm-wp-menu-link-color: #cbc5d3;
 	--crm-wp-menu-link-color-rgb: rgb(203.1, 197.4, 211.2);
 	--crm-wp-menu-text-color-hover: #a3b745;
-	--crm-wp-menu-link-background-color: rgb(64.9802325581, 49.9238372093, 86.3761627907);
-	--crm-wp-menu-separator-color: rgb(64.9802325581, 49.9238372093, 86.3761627907);
+	--crm-wp-menu-link-background-color: #413256;
+	--crm-wp-menu-separator-color: #413256;
 }
 
 body.admin-color-midnight {
@@ -122,8 +122,8 @@ body.admin-color-midnight {
 	--crm-wp-menu-link-color: #c3c4c5;
 	--crm-wp-menu-link-color-rgb: rgb(194.7, 196.2, 197.4);
 	--crm-wp-menu-text-color-hover: #e14d43;
-	--crm-wp-menu-link-background-color: rgb(37.5230769231, 40.9974358974, 43.7769230769);
-	--crm-wp-menu-separator-color: rgb(37.5230769231, 40.9974358974, 43.7769230769);
+	--crm-wp-menu-link-background-color: #26292c;
+	--crm-wp-menu-separator-color: #26292c;
 }
 
 body.admin-color-ocean {
@@ -132,8 +132,8 @@ body.admin-color-ocean {
 	--crm-wp-menu-link-color: #d5dde0;
 	--crm-wp-menu-link-color-rgb: rgb(213, 221.1, 223.5);
 	--crm-wp-menu-text-color-hover: #9ebaa0;
-	--crm-wp-menu-link-background-color: rgb(98.2714285714, 123.5412244898, 131.0285714286);
-	--crm-wp-menu-separator-color: rgb(98.2714285714, 123.5412244898, 131.0285714286);
+	--crm-wp-menu-link-background-color: #627c83;
+	--crm-wp-menu-separator-color: #627c83;
 }
 
 body.admin-color-sunrise {
@@ -141,9 +141,9 @@ body.admin-color-sunrise {
 	--crm-wp-menu-default-color: #fff;
 	--crm-wp-menu-link-color: #f1c8c7;
 	--crm-wp-menu-link-color-rgb: rgb(240.6, 200.4, 198.9);
-	--crm-wp-menu-text-color-hover: rgb(247.3869565217, 227.0108695652, 211.1130434783);
-	--crm-wp-menu-link-background-color: rgb(190.4217021277, 53.969787234, 48.8782978723);
-	--crm-wp-menu-separator-color: rgb(190.4217021277, 53.969787234, 48.8782978723);
+	--crm-wp-menu-text-color-hover: #f7e3d3;
+	--crm-wp-menu-link-background-color: #be3631;
+	--crm-wp-menu-separator-color: #be3631;
 }
 
 body > #civicrm-menu-nav #civicrm-menu.sm-civicrm
